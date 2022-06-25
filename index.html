@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width,initial-scale=1" />
+      <link rel="stylesheet" type="text/css" href="./style.css" />
+      <title>Tabuada</title>
+   </head>
+   <body>
+      <div class="cabeçalho">
+         <h1 id="titulo">Seja bem-vindo (a)</h1>
+         <h2>Neste site você poderá encontrar a tabuada do número desejado e uma calculadora de multiplicação, bom proveito!</h2>
+      </div>   
+      <section>
+         <div class="calc">
+            <fieldset class="grupo1">
+               <legend>Tabuada</legend>
+            <div class="calc-part1">
+               <label>
+                  Insira o número: 
+                  <input type="text" name="number" id="valor" />  
+                  <button onclick="calcular()" id="button">Mostrar</button>
+               </label>
+               </div>
+               <div id="demo"></div>
+            </fieldset>
+         </div>
+
+
+      </section>
+      <section>
+        
+         <div class="calc">
+            <fieldset class="grupo1 grupo2">
+               <legend>Calculadora</legend>
+            <div class="calc-part1 calc-part2">
+               <label>
+                  Insira o primeiro número: 
+                  <input type="text" name="number" id="valor2" />  
+               </label>
+               <label>
+                  Insira o segundo número: 
+                  <input type="text" name="number2" id="valor3" />  
+               </label>
+               <button onclick="calcular2()" id="button">Calcular</button>
+               </div>
+               <div id="demo2"></div>
+            </fieldset>
+         </div>
+      </section>
+      <script src="./script.js"></script>
+   </body>
+
+
+</html>
